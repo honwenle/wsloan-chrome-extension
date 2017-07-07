@@ -1,0 +1,12 @@
+{  
+    "name": "HelloChrome",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Say Hello",
+    "browser_action": {
+        "default_icon": "icon.ico" ,
+        "default_title": "Hello title",
+        "default_popup": "index.html"
+    },
+    "options_page": "options.html"
+}
